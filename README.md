@@ -7,7 +7,7 @@ Create a go dir in your home directory then use go get to install the gds_logs p
 
 mkdir -p  go/{src,bin,pkg}
 
-go get -v -u github.com/chaoshour/aws_tools
+go get -v -u github.com/ChaosHour/aws_tools
 
 ````
 
