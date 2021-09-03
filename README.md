@@ -3,7 +3,8 @@
 ###
 Usage
 ```
-This is just a silly little wrapper around some aws-cli commands I use to list the logs from AWS RDS Aurora - AWS RDS  PostgreSQL.
+A wrapper around some aws-cli commands I use to list the logs from 
+AWS RDS Aurora - AWS RDS  PostgreSQL.
 
 
 Create a go dir in your home directory then use go get to install the aws_tools package.
