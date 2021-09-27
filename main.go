@@ -46,7 +46,7 @@ func main() {
 	// flags declaration using flag package
 	flag.StringVar(&dbRegion, "r", "us-west-1", "Select a aws region to view your clusters.")
 	flag.StringVar(&logType, "l", "error", "Log type to use Example: slow, error.")
-	flag.StringVar(&dbInstanceIdentifier, "dbi", "", "Specify your db-instance-identifier to view it's logs.")
+	flag.StringVar(&dbInstanceIdentifier, "d", "", "Specify your db-instance-identifier to view it's logs.")
 	flag.Parse() // after declaring flags we need to call it
 
 	if dbInstanceIdentifier != "" {

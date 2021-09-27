@@ -1,4 +1,4 @@
-# aws_tools
+# aws-tools
 
 ###
 Usage
@@ -19,7 +19,7 @@ go get -v -u github.com/ChaosHour/aws_tools
 ```
 ./aws_tools -h
 Usage of /tmp/go-build784635128/b001/exe/main:
-  -dbi string
+  -d string
     	Specify your db-instance-identifier to view it's logs.
   -l string
     	Log type to use Example: slow, error. (default "error")
