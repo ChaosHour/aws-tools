@@ -17,7 +17,7 @@ go get -v -u github.com/ChaosHour/aws-tools
 
 
 ```
-./aws-tools -h
+aws-tools -h
 Usage of /tmp/go-build784635128/b001/exe/main:
   -d string
     	Specify your db-instance-identifier to view it's logs.
