@@ -34,6 +34,11 @@ func main() {
 		"--output", "text",
 	}
 
+	// make sure at least one flag is set
+	if *dbIdent == "" {
+		log.Fatal("Please provide a db-cluster-identifier")
+	}
+
 	cmd := exec.Command(args[0], args[1:]...)
 
 	fmt.Printf("Executing command:\n%v\n\n", args)
