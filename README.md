@@ -11,13 +11,13 @@ Create a go dir in your home directory then use go get to install the aws_tools 
 
 mkdir -p  go/{src,bin,pkg}
 
-go get -v -u github.com/ChaosHour/aws-tools
+go get -v -u github.com/ChaosHour/aws-tools/cmd/aws-taws-rds-describe
 
 ````
 
 
 ```
-aws-tools -h
+aws-taws-rds-describe -h
 Usage of /tmp/go-build784635128/b001/exe/main:
   -d string
     	Specify your db-instance-identifier to view it's logs.
