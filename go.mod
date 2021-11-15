@@ -1,3 +1,3 @@
-module github.com/ChaosHour/aws_tools
+module github.com/ChaosHour/aws-tools
 
-go 1.15
+go 1.17
