@@ -2,7 +2,7 @@
 
 ###
 Usage
-```
+```GO
 A wrapper around some aws-cli commands I use to list the logs from 
 AWS RDS Aurora - AWS RDS  PostgreSQL.
 
@@ -13,11 +13,11 @@ mkdir -p  go/{src,bin,pkg}
 
 go get -v -u github.com/ChaosHour/aws-tools/cmd/aws-rds-describe
 
-````
-
-
 ```
-aws-ds-describe -h
+
+
+```GO
+aws-rds-describe -h
 Usage of /tmp/go-build784635128/b001/exe/main:
   -d string
     	Specify your db-instance-identifier to view it's logs.
@@ -25,4 +25,5 @@ Usage of /tmp/go-build784635128/b001/exe/main:
     	Log type to use Example: slow, error. (default "error")
   -r string
     	Select a aws region to view your clusters. (default "us-west-1")
-````
+
+```
