@@ -1,8 +1,5 @@
 # aws-tools
 
-[]: # Language: markdown
-[]: # Path: README.md
-
 ## Usage
 
 ```GO
@@ -20,7 +17,7 @@ go get -v -u github.com/ChaosHour/aws-tools/cmd/aws-rds-describe
 
 ```GO
 aws-rds-describe -h
-Usage of /tmp/go-build784635128/b001/exe/main:
+Usage
   -d string
     Specify your db-instance-identifier to view it's logs.
   -l string
