@@ -9,13 +9,9 @@ mkdir -p  go/{src,bin,pkg}
 go get -v -u github.com/ChaosHour/aws-tools/cmd/aws-cluster-members
 
 
-[klarsen@xxxxx ~]$ ls -lrt go/bin
-total 20820
--rwxr-xr-x 1 klarsen xxx  2491007 Sep 16 16:25 gds-logs
--rwxr-xr-x 1 klarsen xxx  2499399 Sep 16 16:25 download-logs
--rwxr-xr-x 1 klarsen xxx 11329531 Sep 21 22:34 sync-rds-logs
--rwxr-xr-x 1 klarsen xxx  2490841 Sep 22 21:19 mysqlcon-count
--rwxr-xr-x 1 klarsen xxx  2495266 Sep 23 17:50 aws-read-write
+[klarsen@xxxxx ~]$ ls -1 go/bin
+aws-cluster-members
+
 ```
 
 ### Usage
