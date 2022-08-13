@@ -21,7 +21,8 @@ total 20820
 ### Usage
 ```
 aws-cluster-members
-2021/11/12 20:24:55 Please provide a db-cluster-identifier
+Please provide a db-cluster-identifier
+
 
 aws-cluster-members -h
 Usage of aws-cluster-members:
@@ -30,6 +31,7 @@ Usage of aws-cluster-members:
   -r string
     	Select a AWS Region to view you Clusters (default "us-west-1")
 
+
 aws-cluster-members -d xxxx-us-stg
 Cluster:	xxxx-us-stg
 Instance:	xxxx-us-stg-2	False
@@ -37,3 +39,4 @@ Instance:	xxxx-us-stg-1	True
 Instance:	xxxx-us-stg-0	False
 
 ```
+True means the instance is read-write
