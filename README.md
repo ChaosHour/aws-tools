@@ -8,6 +8,16 @@ AWS RDS Aurora - AWS RDS  PostgreSQL.
 
 ```
 
+###
+What is needed to run this?
+awscli and jq
+
+```BASH
+On MacOS:
+brew install jq
+brew install awscli
+```
+
 
 ### What is in the cmd directory?
 
