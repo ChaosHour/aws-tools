@@ -9,8 +9,7 @@ AWS RDS Aurora - AWS RDS  PostgreSQL.
 ```
 
 
-###BASH 
-What is in the cmd directory?
+### What is in the cmd directory?
 
 ```GO
 aws-cluster-members
