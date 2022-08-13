@@ -18,9 +18,6 @@ total 20820
 -rwxr-xr-x 1 klarsen xxx  2495266 Sep 23 17:50 aws-read-write
 ```
 
-### These files are all in /usr/local/bin
-### You only need to login to  start using them.
-
 ### Usage
 ```
 aws-cluster-members
