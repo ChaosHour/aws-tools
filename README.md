@@ -3,8 +3,8 @@
 ## Usage
 
 ```GO
-A wrapper around some aws-cli commands I use to list, view and gather information about AWS resources.
-AWS RDS Aurora - AWS RDS  PostgreSQL.
+A wrapper around some aws-cli commands I use to list, view and gather information 
+about AWS resources. AWS RDS Aurora - AWS RDS  PostgreSQL.
 
 ```
 
