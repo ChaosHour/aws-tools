@@ -28,10 +28,18 @@ Lists the members of an Aurora Cluster.
 aws-dns-query
 Queries the AWS Route53 DNS service.
 
-
-aws-rds-describe
-Describes an AWS RDS instance.
-
 aws-read-write
 Lists the read-write instances in an Aurora Cluster.
+
+my-repl-stat
+Lists the replication status of an Aurora Cluster.
+
+mysqlcon-count
+Lists the number of MySQL connections.
+
+pg-activity
+Lists the activity of PostgreSQL connections.
+
+pg-queries
+Lists the queries of PostgreSQL connections.
 ``` 
