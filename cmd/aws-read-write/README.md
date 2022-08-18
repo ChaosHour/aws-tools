@@ -8,6 +8,8 @@ mkdir -p  go/{src,bin,pkg}
 
 go get -v -u github.com/ChaosHour/aws-tools/cmd/aws-read-write
 
+For newer versions of go use:
+go install github.com/ChaosHour/aws-tools/cmd/aws-read-write@latest
 
 [klarsen@xxxxx ~]$ ls -1 go/bin
 aws-read-write

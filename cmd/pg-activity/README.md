@@ -4,6 +4,10 @@
 ```
 go get -v -u github.com/ChaosHour/aws-tools/cmd/pg-activity
 
+For newer versions of go use:
+go install github.com/ChaosHour/aws-tools/cmd/pg-activity@latest
+
+
 ```
 
 ### Note:  It helps if you have a .pgpass file in your home directory, but it is not required.

@@ -4,6 +4,10 @@
 ```
 go get -v -u github.com/ChaosHour/aws-tools/cmd/mysqlcon-count
 
+For newer versions of go use:
+go install github.com/ChaosHour/aws-tools/cmd/mysqlcon-count@latest
+
+
 ```
 
 ### Note:  You must have a .my.cnf file with correct user and pass to use:

@@ -4,6 +4,10 @@
 ```
 go get -v -u github.com/ChaosHour/aws-tools/cmd/my-repl-stat
 
+For newer versions of go use:
+go install github.com/ChaosHour/aws-tools/cmd/my-repl-stat@latest
+
+
 ```
 
 ### Note:  You must have a .my.cnf file with correct GDS user and pass to use:
