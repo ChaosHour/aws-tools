@@ -18,6 +18,10 @@ brew install jq
 brew install awscli
 ```
 
+### You will need the mysql-client and the pgsql-client installed to use these tools.
+
+
+
 
 ### What is in the cmd directory?
 
